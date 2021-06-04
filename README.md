@@ -2,7 +2,7 @@
 DocHub
 :beers:Personal DocHub Here:boom:
 
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=GFLEE&repo=DocHub)](https://github.com/anuraghazra/github-readme-stats) 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=GFLEE&repo=DocHub)](https://github.com/GFLEE/DocHub) 
 
 | 作者  |  说明  |
 | :---: | :----: |
