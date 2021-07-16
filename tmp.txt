@@ -1,275 +1,195 @@
-CREATE OR REPLACE procedure I_SYN_TT_CAR_POSITION(i_DockCode      IN VARCHAR2,
-                                                  i_DockName      IN VARCHAR2,
-                                                  i_CarTypeCode   IN VARCHAR2,
-                                                  i_CarTypeName   IN VARCHAR2,
-                                                  i_CarLengthCode IN VARCHAR2,
-                                                  i_CarLengthName IN VARCHAR2,
-                                                  i_CarCarryType  IN VARCHAR2,
-																									i_Flag					IN VARCHAR2,
-                                                  o_success       OUT INTEGER,
-                                                  o_msg           OUT VARCHAR2) is
-  /***********************************************************************
-  Author:liguofu
-  Name：I_SYN_TT_CAR_POSITION
-  CreateDate:       2021-7-16
-  Description：垛口与车位信息同步，    修改TT需要删除时WES接口联合多字段查询出数据后增加删除标记，
-	下次重新启用时检查是否有删除标记的，有则去掉删除标记，无则新增一条记录
-  Result Values：Int,1为成功,0为失败
-  **********************************************************************/
-	
+CREATE OR REPLACE procedure I_SYN_TT_CAR_QUEUE_M(i_QueueCode      IN VARCHAR2,
+                                                 i_QueueName      IN VARCHAR2,
+                                                 i_CacheQueueCode IN VARCHAR2,
+                                                 i_CacheQueueName IN VARCHAR2,
+                                                 i_CacheQTY       IN INTEGER,
+																								 i_Flag					  IN VARCHAR2,
+                                                 o_success        OUT INTEGER,
+                                                 o_msg            OUT VARCHAR2) is
+
   v_COUNT        INTEGER;
   v_WAREHOUSE_ID VARCHAR2(64) := '1316220086721318914';
   v_msg          VARCHAR2(2000);
-  v_DOCK_CODE    VARCHAR2(64);
-  v_DOCK_ID      VARCHAR2(64);
   v_log_text     CLOB;
   v_log_no       VARCHAR2(64);
   e_USEREXCEPTION EXCEPTION;
 begin
   v_log_no   := TO_CHAR(SYSDATE, 'yyyyMMddhh24miss');
-  v_msg      := '开始同步TT车辆与车位关系主数据';
-  v_log_text := ',i_DockCode:' || i_DockCode || ',i_DockName:' ||
-                i_DockName || ',i_CarTypeCode:' || i_CarTypeCode ||
-                ',i_CarTypeName:' || i_CarTypeName || ',i_CarLengthCode:' ||
-                i_CarLengthCode || ',i_CarLengthName:' || i_CarLengthName ||
-                ',i_CarCarryType:' || i_CarCarryType;
+  v_msg      := '开始同步TT队列主数据';
+  v_log_text := ',i_QueueCode:' || i_QueueCode || ',i_QueueName:' ||
+                i_QueueName || ',i_CacheQueueCode:' || i_CacheQueueCode ||
+                ',i_CacheQueueName:' || i_CacheQueueName || ',i_CacheQTY:' ||
+                i_CacheQTY;
 
   m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-            i_log_text       => '同步TT车辆与车位关系主数据',
+            i_log_text       => '同步TT队列主数据',
             i_log_text_long  => v_msg || v_log_text,
-            i_common_name    => 'I_SYN_TT_CAR_POSITION',
+            i_common_name    => 'I_SYN_TT_CAR_QUEUE_M',
             i_critical_level => 0,
             i_type_code      => 'workflow_log',
             i_log_no         => v_log_no,
             i_parrent_log_no => '',
-            i_user           => 'WES');					
-
-  CASE
-    WHEN i_DockCode = 'T60A01' THEN
-      v_DOCK_CODE := 'D001';
-    WHEN i_DockCode = 'T60A02' THEN
-      v_DOCK_CODE := 'D002';
-    WHEN i_DockCode = 'T60A03' THEN
-      v_DOCK_CODE := 'D003';
-    WHEN i_DockCode = 'T60A04' THEN
-      v_DOCK_CODE := 'D004';
-    WHEN i_DockCode = 'T60A05' THEN
-      v_DOCK_CODE := 'D005';
-    ELSE
-      v_msg := 'DockCode没有找到映射关系';
-      RAISE e_USEREXCEPTION;
-  END CASE;
-
-  SELECT COUNT(1)
-    INTO v_COUNT
-    FROM WMS_M_DOCK T
-   WHERE T.DOCK_CODE = v_DOCK_CODE;
-
-  IF v_COUNT <> 1 THEN
-    v_msg := '月台表基础数据配置错误';
-    RAISE e_USEREXCEPTION;
-  END IF;
-
-  SELECT T.T_ID
-    INTO v_DOCK_ID
-    FROM WMS_M_DOCK T
-   WHERE T.DOCK_CODE = v_DOCK_CODE;
-
+            i_user           => 'WMS');
+						
+	--添加
 	IF i_Flag = 'A' THEN
-	   v_msg := '增加车辆与货位关系';
-		 m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-              i_log_text       => '同步TT车辆与车位关系主数据',
-              i_log_text_long  => v_msg || v_log_text,
-              i_common_name    => 'I_SYN_TT_CAR_POSITION',
-              i_critical_level => 0,
-              i_type_code      => 'workflow_log',
-              i_log_no         => v_log_no,
-              i_parrent_log_no => '',
-              i_user           => 'WES');
-		 
-		 SELECT COUNT(1)
-			INTO v_COUNT
-     FROM WMS_M_TT_CAR_POSITION T
-     WHERE T.DOCK_CODE = i_DockCode
-     AND T.CAR_TYPE_CODE = i_CarTypeCode
-     AND T.CAR_LENGTH_CODE = i_CarLengthCode;
-		 
-		 IF v_COUNT <> 0 THEN
-     v_msg := '车辆与货位关系已同步，已启用';
-     m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-              i_log_text       => '启用TT车辆与车位关系主数据',
-              i_log_text_long  => v_msg || v_log_text,
-              i_common_name    => 'I_SYN_TT_CAR_POSITION',
-              i_critical_level => 0,
-              i_type_code      => 'workflow_log',
-              i_log_no         => v_log_no,
-              i_parrent_log_no => '',
-              i_user           => 'WES');
-							
-     -- 修改标记
-		 UPDATE WMS_M_TT_CAR_POSITION 
-		 SET POSITION_STATUS = 'USED' 
-		 WHERE
-		  DOCK_CODE = i_DockCode 
-		  AND CAR_TYPE_CODE = i_CarTypeCode
-			AND CAR_LENGTH_CODE = i_CarLengthCode;
-				
-		--ADD 
-		ELSE
-		insert into wms_m_tt_car_position
-    (t_id,
-     client_id,
-     org_id,
-     warehouse_id,
-     dock_code,
-     dock_name,
-     car_type_code,
-     car_type_name,
-     car_length_code,
-     car_length_name,
-     car_carry_type,
-     dock_id,
-     create_date,
-     created_by,
-     modify_ip,
-     modify_date,
-     last_modified_by,
-     act_status)
-  values
-    (GETNTIID(),
-     '',
-     '',
-     v_WAREHOUSE_ID,
-     i_DockCode,
-     i_DockName,
-     i_CarTypeCode,
-     i_CarTypeName,
-     i_CarLengthCode,
-     i_CarLengthName,
-     i_CarCarryType,
-     v_DOCK_ID,
-     SYSDATE,
-     'WES',
-     '',
-     '',
-     '',
-     '1');
-
-  COMMIT;
-	END IF;
-  v_msg := 'TT车辆与车位关系主数据添加成功！';
-  m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-            i_log_text       => '添加TT车辆与车位关系主数据',
-            i_log_text_long  => v_msg,
-            i_common_name    => 'I_SYN_TT_CAR_POSITION',
-            i_critical_level => 0,
-            i_type_code      => 'workflow_log',
-            i_log_no         => v_log_no,
-            i_parrent_log_no => '',
-            i_user           => 'WES');
-	  o_success := 1;
-    o_msg     := v_msg;
+	  IF i_QueueCode IS NOT NULL THEN
+     insert into wms_m_tt_car_queue
+        (t_id,
+         client_id,
+         org_id,
+         warehouse_id,
+         queue_code,
+         queue_name,
+         is_cache,
+         cache_qty,
+         create_date,
+         created_by,
+         modify_ip,
+         modify_date,
+         last_modified_by,
+         act_status)
+      values
+        (GETNTIID(),
+         '',
+         '',
+         v_WAREHOUSE_ID,
+         i_QueueCode,
+         i_QueueName,
+         0,
+         0,
+         SYSDATE,
+         'WMS',
+         '',
+         '',
+         '',
+         '1'); 
+		END IF; 
 		
-	ELSIF i_Flag = 'U' THEN
-	  v_msg := '修改车辆与货位关系';
-	  m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-              i_log_text       => '修改TT车辆与车位关系主数据',
-              i_log_text_long  => v_msg || v_log_text,
-              i_common_name    => 'I_SYN_TT_CAR_POSITION',
-              i_critical_level => 0,
-              i_type_code      => 'workflow_log',
-              i_log_no         => v_log_no,
-              i_parrent_log_no => '',
-              i_user           => 'WES');
-		--UPDATE				
-		 UPDATE WMS_M_TT_CAR_POSITION T
-		 SET DOCK_NAME = i_DockName,
-				 CAR_TYPE_NAME = i_CarTypeName,
-				 CAR_LENGTH_NAME = i_CarLengthName,
-				 CAR_CARRY_TYPE = i_CarCarryType
-     WHERE DOCK_CODE = i_DockCode
-     AND CAR_TYPE_CODE = i_CarTypeCode
-     AND CAR_LENGTH_CODE = i_CarLengthCode;		
+	--CacheQueue		
+	IF i_CacheQueueCode IS NOT NULL THEN
+	 
+	SELECT
+		COUNT(*) INTO v_COUNT 
+	FROM
+		wms_m_tt_car_queue que 
+	WHERE
+		que.QUEUE_CODE = i_CacheQueueCode;
+		
+	 IF v_COUNT = 0 THEN
+	 insert into wms_m_tt_car_queue
+        (t_id,
+         client_id,
+         org_id,
+         warehouse_id,
+         queue_code,
+         queue_name,
+         is_cache,
+         cache_qty,
+         create_date,
+         created_by,
+         modify_ip,
+         modify_date,
+         last_modified_by,
+         act_status)
+      values
+        (GETNTIID(),
+         '',
+         '',
+         v_WAREHOUSE_ID,
+         i_CacheQueueCode,
+         i_CacheQueueName,
+         1,
+         i_CacheQTY,
+         SYSDATE,
+         'WMS',
+         '',
+         '',
+         '',
+         '1');
+	 END IF; 
+	 END IF; 
+  o_success := 1;
+  o_msg     := v_msg;
+  RETURN;
+	END IF;
+	
+		--更新
+	IF i_Flag = 'U' THEN
+	  IF i_QueueCode IS NOT NULL THEN
+      UPDATE WMS_M_TT_CAR_QUEUE T
+         SET T.QUEUE_NAME       = i_QueueName,
+             T.LAST_MODIFIED_BY = 'WMS',
+             T.MODIFY_DATE      = SYSDATE
+       WHERE T.QUEUE_CODE = i_QueueCode;
+		END IF;
+    --CacheQueue
+		IF i_CacheQueueCode IS NOT NULL THEN 
+		 UPDATE WMS_M_TT_CAR_QUEUE T
+         SET T.QUEUE_NAME       = i_CacheQueueName,
+             T.CACHE_QTY        = i_CacheQTY,
+             T.LAST_MODIFIED_BY = 'WMS',
+             T.MODIFY_DATE      = SYSDATE
+       WHERE T.QUEUE_CODE = i_QueueCode;
+    END IF;
+  o_success := 1;
+  o_msg     := v_msg;
+  RETURN;
+	END IF;
+	
+ 	--删除
+	IF i_Flag = 'D' THEN
+			DELETE FROM WMS_M_TT_CAR_QUEUE  
+			 WHERE QUEUE_CODE = i_QueueCode;
 					
+		--CacheQueue
+				DELETE FROM WMS_M_TT_CAR_QUEUE  
+				WHERE QUEUE_CODE = i_CacheQueueCode;
+				--update WMS_M_TT_CAR_QUEUE set 
+    o_success := 1;
+    o_msg     := v_msg;
+  RETURN;
+	END IF;
+
   COMMIT;
-  v_msg := 'TT车辆与车位关系主数据修改成功！';
+  v_msg := '同步TT队列主数据成功';
   m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-            i_log_text       => '修改TT车辆与车位关系主数据',
+            i_log_text       => '同步TT队列主数据',
             i_log_text_long  => v_msg,
-            i_common_name    => 'I_SYN_TT_CAR_POSITION',
+            i_common_name    => 'I_SYN_TT_CAR_QUEUE_M',
             i_critical_level => 0,
             i_type_code      => 'workflow_log',
             i_log_no         => v_log_no,
             i_parrent_log_no => '',
-            i_user           => 'WES');
-	  o_success := 1;
-    o_msg     := v_msg;
-    RETURN;
-
-	ELSIF i_Flag = 'D' THEN
-	  v_msg := '删除车辆与货位关系（修改 POSITION_STATUS）';
-	  m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-              i_log_text       => '不启用TT车辆与车位关系主数据',
-              i_log_text_long  => v_msg || v_log_text,
-              i_common_name    => 'I_SYN_TT_CAR_POSITION',
-              i_critical_level => 0,
-              i_type_code      => 'workflow_log',
-              i_log_no         => v_log_no,
-              i_parrent_log_no => '',
-              i_user           => 'WES');
-					
-				UPDATE WMS_M_TT_CAR_POSITION 
-				SET POSITION_STATUS = 'NOT_USED' 
-				WHERE
-			  DOCK_CODE = i_DockCode 
-				AND CAR_TYPE_CODE = i_CarTypeCode
-				AND CAR_LENGTH_CODE = i_CarLengthCode;	
-				
-		 COMMIT;
-		 v_msg := 'TT车辆与车位关系主数据已删除(修改字段)！';
-		 m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-            i_log_text       => '删除TT车辆与车位关系主数据',
-            i_log_text_long  => v_msg,
-            i_common_name    => 'I_SYN_TT_CAR_POSITION',
-            i_critical_level => 0,
-            i_type_code      => 'workflow_log',
-            i_log_no         => v_log_no,
-            i_parrent_log_no => '',
-            i_user           => 'WES');
-	  o_success := 1;
-    o_msg     := v_msg;
-    RETURN;
-	ELSE 
-	 RAISE  e_USEREXCEPTION;
-END IF;					
-
+            i_user           => 'WMS');
+  o_success := 1;
+  o_msg     := v_msg;
 EXCEPTION
   WHEN e_USEREXCEPTION THEN
     ROLLBACK;
     m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-              i_log_text       => '同步TT车辆与车位关系主数据',
+              i_log_text       => '同步TT队列主数据',
               i_log_text_long  => v_msg,
-              i_common_name    => 'I_SYN_TT_CAR_POSITION',
+              i_common_name    => 'I_SYN_TT_CAR_QUEUE_M',
               i_critical_level => 0,
               i_type_code      => 'workflow_log',
               i_log_no         => v_log_no,
               i_parrent_log_no => '',
-              i_user           => 'WES');
+              i_user           => 'WMS');
     o_success := 0;
     o_msg     := v_msg;
   WHEN OTHERS THEN
     ROLLBACK;
     v_msg := SQLERRM;
     m_add_log(i_warehouse_id   => v_WAREHOUSE_ID,
-              i_log_text       => '同步TT车辆与车位关系主数据',
+              i_log_text       => '同步TT队列主数据',
               i_log_text_long  => v_msg,
-              i_common_name    => 'I_SYN_TT_CAR_POSITION',
+              i_common_name    => 'I_SYN_TT_CAR_QUEUE_M',
               i_critical_level => 0,
               i_type_code      => 'workflow_log',
               i_log_no         => v_log_no,
               i_parrent_log_no => '',
-              i_user           => 'WES');
+              i_user           => 'WMS');
     o_success := 0;
     o_msg     := v_msg;
-  
-end I_SYN_TT_CAR_POSITION;
+end I_SYN_TT_CAR_QUEUE_M;
