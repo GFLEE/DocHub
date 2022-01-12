@@ -1,1 +1,964 @@
-{"CarQueue":[{"QueueCode":"WEZ-1000","QueueName":"WEZ厂内成品托盘化装货队列","CacheQueueCode":"HCQ001","CacheQueueName":"成品库缓冲区","CacheQTY":5,"Flag":"U"},{"QueueCode":"WEZ-1010","QueueName":"WEZ厂内成品散码及卸货队列","CacheQueueCode":"HCQ001","CacheQueueName":"成品库缓冲区","CacheQTY":5,"Flag":"U"}],"CarPosition":[{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"A"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A01","DockName":"WEZ厂内成品垛口A01","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A02","DockName":"WEZ厂内成品垛口A02","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A03","DockName":"WEZ厂内成品装卸货垛口A03","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101008","CarLengthName":"16.5+","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101008","CarLengthName":"16.5+","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101008","CarLengthName":"16.5+","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A04","DockName":"WEZ厂内成品垛口A04","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101008","CarLengthName":"16.5+","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100001","CarTypeName":"平板","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100002","CarTypeName":"侧帘","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100003","CarTypeName":"飞翼","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101001","CarLengthName":"4.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101002","CarLengthName":"6.8","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101003","CarLengthName":"7.2","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101004","CarLengthName":"9.6","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101005","CarLengthName":"13.5","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101006","CarLengthName":"14.9","CarCarryType":"1","Flag":"U"},{"DockCode":"T60A05","DockName":"WEZ厂内成品垛口A05","CarTypeCode":"100007","CarTypeName":"尾部箱车","CarLengthCode":"101007","CarLengthName":"16.5","CarCarryType":"1","Flag":"U"}]} 
+CREATE OR REPLACE PROCEDURE M_Inspect_AsrsMaterialInventory(
+                                                            i_warehouseid          IN  NVARCHAR2,     --百威仓库ID
+                                                            i_client_id            IN  VARCHAR2,      --集团ID
+                                                            i_doc_no               IN  VARCHAR2,      --出库单号
+                                                            o_result               OUT INT,
+                                                            o_resultcode           OUT VARCHAR2,
+                                                            o_msg                  OUT VARCHAR2
+                                                          ) IS
+  /***********************************************************************
+  Author:
+  Name：
+  CreateDate:
+  Description：校验发运单库存
+  Parameter：仓库ID
+  Result Values：Int，1为成功，0为失败
+  Apply Interface:
+  Apply Warehouse：
+  **********************************************************************/
+
+  v_count               INT;
+  v_count1              INT;
+  v_counter             INT:=0;
+  v_qty                 NUMBER:=0;
+  e_duplicateauthors    EXCEPTION;
+BEGIN
+   select count(*)
+     into v_count
+     from wms_d_outbound_h oh
+    where oh.doc_no = i_doc_no;
+   if v_count = 0 then
+     o_result := 0;
+     o_resultcode := '404';
+     o_msg := '发运单：【' || i_doc_no ||'】信息不存在！';
+     return;
+   end if;
+
+   select count(*)
+    into v_count1
+    from wms_d_outbound_d od
+    join wms_d_outbound_h oh
+      on od.outbound_h_id = oh.t_id
+   where oh.doc_no = i_doc_no;
+   if v_count1 = 0 then
+     o_result := 0;
+     o_resultcode := '404';
+     o_msg := '发运单：【' || i_doc_no ||'】不存在发货数据';
+     return;
+   end if;
+
+   for curlist in(
+                     select od.item_id,
+                            od.item_code,
+                            od.item_name,
+                            od.lot_no,
+                            od.invstatus,
+                            nvl(od.boxsupport, 0) boxsupport,
+                            od.given_year,
+                            od.owner_id,
+                            od.outside_warehouse,
+                            od.storagearea,
+                            sum(nvl(od.plan_qty, 0)) qty,
+                            sum(nvl(od.processed_qty, 0)) processedqty
+                       from wms_d_outbound_d od
+                       join wms_d_outbound_h oh
+                         on od.outbound_h_id = oh.t_id
+                      where oh.doc_no = i_doc_no
+                        and oh.act_status = '1'
+                        and od.act_status = '1'
+                        and (nvl(od.plan_qty, 0) - nvl(od.processed_qty, 0)) > 0
+                      group by od.item_id,
+                               od.item_code,
+                               od.item_name,
+                               od.lot_no,
+                               od.invstatus,
+                               od.boxsupport,
+                               od.given_year,
+                               od.owner_id,
+                               od.outside_warehouse,
+                               od.storagearea
+                      order by qty desc
+          )
+    loop
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          /*and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1*/
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+         v_counter := v_counter + 1;
+         continue;
+       end if;
+
+       /******************************校验批次库存********************************/
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+          o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】'||',对应批次'||'【' || curlist.lot_no || '】库存不足';
+          o_resultcode := '416';
+          raise e_duplicateauthors;
+       end if;
+
+       /******************************校验质量状态库存********************************/
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+          o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】'||',对应质量状态'||'【' || curlist.invstatus || '】库存不足';
+          o_resultcode := '416';
+          raise e_duplicateauthors;
+       end if;
+
+       /******************************校验箱托关系库存********************************/
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+          o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】'||',对应箱托关系'||'【' || curlist.boxsupport || '】库存不足';
+          o_resultcode := '416';
+          raise e_duplicateauthors;
+       end if;
+
+       /******************************校验货主库存********************************/
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                           and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+          o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】'||',对应货主'||'【' || curlist.owner_id || '】库存不足';
+          o_resultcode := '416';
+          raise e_duplicateauthors;
+       end if;
+
+       /******************************校验外部工厂库存********************************/
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+          o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】'||',对应外部工厂'||'【' || curlist.outside_warehouse || '】库存不足';
+          o_resultcode := '416';
+          raise e_duplicateauthors;
+       end if;
+
+       /******************************校验库存地库存********************************/
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.given_year, '0') > 0 and
+                                     (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                              'yyyy-mm-dd') - ls.first_in_date) <=
+                                     to_number(nvl(curlist.given_year, '0')) then
+                                 1
+                                when nvl(curlist.given_year, '0') = 0 then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+          o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】'||',对应库存地'||'【' || curlist.storagearea || '】库存不足';
+          o_resultcode := '416';
+          raise e_duplicateauthors;
+       end if;
+
+       /******************************校验酒龄********************************/
+
+       select count(*)
+         into v_count
+         from (select sum(nvl(qty, 0)) qty
+                 from (select ls.item_id,
+                              ls.lot_no,
+                              ls.qc_status,
+                              ls.item_boxsupport,
+                              ls.owner_id,
+                              ls.sub_factory,
+                              ls.sub_inventory,
+                              ls.sub_location,
+                              sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                         from location_stored_bwitem ls
+                        where ls.item_id = curlist.item_id
+                          and (case
+                                when nvl(curlist.lot_no, '0') <> '0' and
+                                     ls.lot_no = nvl(curlist.lot_no, '0') then
+                                 1
+                                when nvl(curlist.lot_no, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.invstatus, '0') <> '0' and
+                                     ls.qc_status =
+                                     nvl(curlist.invstatus, '0') then
+                                 1
+                                when nvl(curlist.invstatus, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.boxsupport, '0') <> '0' and
+                                     ls.item_boxsupport =
+                                     nvl(curlist.boxsupport, '0') then
+                                 1
+                                when nvl(curlist.boxsupport, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.owner_id, '0') <> '0' and
+                                     ls.owner_id = nvl(curlist.owner_id, '0') then
+                                 1
+                                when nvl(curlist.owner_id, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.outside_warehouse, '0') <> '0' and
+                                     ls.sub_inventory =
+                                     nvl(curlist.outside_warehouse, '0') then
+                                 1
+                                when nvl(curlist.outside_warehouse, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and (case
+                                when nvl(curlist.storagearea, '0') <> '0' and
+                                     ls.sub_location =
+                                     nvl(curlist.storagearea, '0') then
+                                 1
+                                when nvl(curlist.storagearea, '0') = '0' then
+                                 1
+                                else
+                                 0
+                              end) = 1
+                          and ls.location_status = 'LocationStatus_Stored'
+                          and ls.qty - nvl(ls.lock_qty, 0) > 0
+                        group by ls.item_id,
+                                 ls.lot_no,
+                                 ls.qc_status,
+                                 ls.item_boxsupport,
+                                 ls.owner_id,
+                                 ls.sub_factory,
+                                 ls.sub_inventory,
+                                 ls.sub_location)) t
+        where t.qty >= (curlist.qty - curlist.processedqty);
+       if v_count > 0 then
+         o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】酒龄超期';
+         o_resultcode := '416';
+         raise e_duplicateauthors;
+       end if;
+
+       select sum(nvl(qty, 0)) qty
+         into v_qty
+         from (select ls.item_id,
+                      ls.lot_no,
+                      ls.qc_status,
+                      ls.item_boxsupport,
+                      ls.owner_id,
+                      ls.sub_factory,
+                      ls.sub_inventory,
+                      ls.sub_location,
+                      sum((ls.qty - nvl(ls.lock_qty, 0))) qty
+                 from location_stored_bwitem ls
+                where ls.item_id = curlist.item_id
+                  and (case
+                        when nvl(curlist.lot_no, '0') <> '0' and
+                             ls.lot_no = nvl(curlist.lot_no, '0') then
+                         1
+                        when nvl(curlist.lot_no, '0') = '0' then
+                         1
+                        else
+                         0
+                      end) = 1
+                  and (case
+                        when nvl(curlist.invstatus, '0') <> '0' and
+                             ls.qc_status = nvl(curlist.invstatus, '0') then
+                         1
+                        when nvl(curlist.invstatus, '0') = '0' then
+                         1
+                        else
+                         0
+                      end) = 1
+                  and (case
+                        when nvl(curlist.boxsupport, '0') <> '0' and
+                             ls.item_boxsupport =
+                             nvl(curlist.boxsupport, '0') then
+                         1
+                        when nvl(curlist.boxsupport, '0') = '0' then
+                         1
+                        else
+                         0
+                      end) = 1
+                  and (case
+                        when nvl(curlist.owner_id, '0') <> '0' and
+                             ls.owner_id = nvl(curlist.owner_id, '0') then
+                         1
+                        when nvl(curlist.owner_id, '0') = '0' then
+                         1
+                        else
+                         0
+                      end) = 1
+                  and (case
+                        when nvl(curlist.outside_warehouse, '0') <> '0' and
+                             ls.sub_inventory =
+                             nvl(curlist.outside_warehouse, '0') then
+                         1
+                        when nvl(curlist.outside_warehouse, '0') = '0' then
+                         1
+                        else
+                         0
+                      end) = 1
+                  and (case
+                        when nvl(curlist.storagearea, '0') <> '0' and
+                             ls.sub_location = nvl(curlist.storagearea, '0') then
+                         1
+                        when nvl(curlist.storagearea, '0') = '0' then
+                         1
+                        else
+                         0
+                      end) = 1
+                 /* and (case
+                        when nvl(curlist.given_year, '0') > 0 and
+                             (to_date(to_char(sysdate, 'yyyy-mm-dd'),
+                                      'yyyy-mm-dd') - ls.first_in_date) <=
+                             to_number(nvl(curlist.given_year, '0')) then
+                         1
+                        when nvl(curlist.given_year, '0') = 0 then
+                         1
+                        else
+                         0
+                      end) = 1*/
+                  and ls.location_status = 'LocationStatus_Stored'
+                  and ls.qty - nvl(ls.lock_qty, 0) > 0
+                group by ls.item_id,
+                         ls.lot_no,
+                         ls.qc_status,
+                         ls.item_boxsupport,
+                         ls.owner_id,
+                         ls.sub_factory,
+                         ls.sub_inventory,
+                         ls.sub_location) t;
+
+       o_resultcode := '416';
+       o_msg := '单据【'||i_doc_no||'】,物料【'||curlist.item_code||'】当前库存量为'|| v_qty ||',对应库存不足出库数量';
+       raise e_duplicateauthors;
+    end loop;
+
+    if v_counter > 0 and v_counter = v_count1 then
+      o_result := 1;
+      o_resultcode := '200';
+      o_msg := '单据【'||i_doc_no||'】库存校验成功';
+    else
+      o_result := 0;
+      o_resultcode := '416';
+      o_msg := '单据【'||i_doc_no||'】库存校验失败';
+    end if;
+
+
+EXCEPTION
+  WHEN e_duplicateauthors THEN
+    ROLLBACK;
+    o_result := 0;
+    m_addsystemlog(i_warehouseid   => i_warehouseid,
+                   i_userid        => 'LOC',
+                   i_p_log_no      => '',
+                   i_log_no        => '',
+                   i_commonname    => 'M_Inspect_StereoInventory',
+                   i_criticallevel => 1,
+                   i_logtext       => '库存检查异常，异常原因：' || o_msg,
+                   i_logtextlong   => o_msg);
+  WHEN dup_val_on_index THEN
+    o_result := 0;
+    o_msg      := sqlerrm;
+    o_resultcode := '500';
+    m_addsystemlog(i_warehouseid   => i_warehouseid,
+                   i_userid        => 'LOC',
+                   i_p_log_no      => '',
+                   i_log_no        => '',
+                   i_commonname    => 'M_Inspect_StereoInventory',
+                   i_criticallevel => 1,
+                   i_logtext       => '库存检查异常，异常原因:' || o_msg,
+                   i_logtextlong   => o_msg);
+  WHEN OTHERS THEN
+    o_result := 0;
+    o_msg      := sqlerrm;
+    o_resultcode := '500';
+    m_addsystemlog(i_warehouseid   => i_warehouseid,
+                   i_userid        => 'LOC',
+                   i_p_log_no      => '',
+                   i_log_no        => '',
+                   i_commonname    => 'M_Inspect_StereoInventory',
+                   i_criticallevel => 1,
+                   i_logtext       => '库存检查异常，异常原因:' || o_msg,
+                   i_logtextlong   => o_msg);
+END M_Inspect_AsrsMaterialInventory;
